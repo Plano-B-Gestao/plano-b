@@ -34,7 +34,7 @@ jobs:
       - name: Inject API Key
         run: |
           echo "Injecting API Key into files..."
-          find . -type f -name '*.js' -exec sed -i "s|__SECRET_KEY__|${{ secrets.SECRET_KEY }}|g" {} +
+          find . -type f -name '*.html' -exec sed -i "s|__SECRET_KEY__|${{ secrets.SECRET_KEY }}|g" {} +
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
