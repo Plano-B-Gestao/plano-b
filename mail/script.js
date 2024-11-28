@@ -1,4 +1,7 @@
 function sendMail() {
+    // Prevent the default form submission (which causes the redirect)
+    event.preventDefault();
+    
     let parms = {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
