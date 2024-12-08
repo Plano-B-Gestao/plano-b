@@ -11,6 +11,11 @@ function sendMail() {
     emailjs.send("service_c3x6rvr", "template_t0md69s", parms)
         .then(function(response) {
             alert("Email enviado com sucesso!");
+
+            // Clear the form fields after the email is sent
+            document.getElementById("name").value = '';
+            document.getElementById("email").value = '';
+            document.getElementById("message").value = '';
         }, function(error) {
             alert("Erro ao enviar o email: " + error);
         });
