@@ -14,8 +14,8 @@ function sendMail() {
             document.getElementById("name").value = '';
             document.getElementById("email").value = '';
             document.getElementById("message").value = '';
-            
-            alert("Email enviado com sucesso!");
+
+            alert("Email enviado com sucesso!!");
 
             
         }, function(error) {
