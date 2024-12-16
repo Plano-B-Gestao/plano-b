@@ -297,6 +297,7 @@ header .intro-text {
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
+	color: #777;
 }
 
 #about h2 {
@@ -314,6 +315,22 @@ header .intro-text {
 	width: 50px;
 	bottom: -1px;
 	left: 0;
+}
+
+#services h5 {
+	font-family: inherit;
+	color: #777;
+}
+#services .about-text h4 {
+	font-family: inherit;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #777;
+}
+#services .about-text h3 {
+	font-family: inherit;
+	color: #777;
 }
 
 #about .about-text li {
